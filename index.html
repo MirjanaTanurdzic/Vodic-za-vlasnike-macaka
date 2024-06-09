@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Život sa mačkom-Vodič za vlasnike mačaka</title>
+    <link rel="icon" href="slike/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="zaglavlje">
+            <div class="logo">
+                <a href="#"><img src="slike/logo.png"></a>
+            </div>
+            <div class="pretraga">
+                <form id="form-pretraga">
+                    <input type="text" id="pretraga" placeholder="Pretraži:" maxlength="100" oninput="pretrazi()">
+                    <button id="dugme" onmouseover="ispisatiOpcije('Klikni')" onmouseout="skloniOpcije()">?</button>
+                    <div id="opcije"></div>
+                </form>
+            </div>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="novi_vlasnici.html">Za nove vlasnike</a></li>
+            <li><a href="zabava.html">Igračke i rekreacija</a></li>
+            <li><a href="oprema.html">Oprema i moda</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="sadrzaj-index">
+        <div class="reklamni-boxovi">
+        <div class="reklamni-box-levi">
+            <a href="novi_vlasnici.html"><img src="slike/mačka1.jpeg"></a>
+        </div>
+        <div class="reklamni-box-desni">
+            <div class="gornji-box-desni">
+            <a href="zabava.html"><img src="slike/mačka3.jpg"></a>
+            </div>
+            <div class="donji-box-desni">
+            <a href="oprema.html"><img src="slike/mačka4.jpg"></a>
+            </div>
+        </div>
+        </div>
+        <div class="kratki-opisi">
+            <div class="prva-stranica">
+                <p><img src="slike/prva.png"></p>
+                <h3>Za nove vlasnike</h3>
+                <br>
+                <p>Postali ste vlasnik mačeta i niste sigurni šta bi tačno trebali da radite kako bi mu sve bilo OK? Ne brinite, na ovom mestu možete pročitati sve što treba da znate. <a href="novi_vlasnici.html">Detaljnije..</a></p>
+            </div>
+            <div class="druga-stranica">
+                <p><img src="slike/druga.png"></p>
+                <h3>Igračke i rekreacija</h3>
+                <br>
+                <p>Čime sve možete učiniti život svoje mačke bogatijim i zanimljivijim? <a href="zabava.html">Detaljnije..</a></p>
+            </div>
+            <div class="treća-stranica">
+                <p><img src="slike/treca.png"></p>
+                <h3>Oprema i moda</h3>
+                <br>
+                <p>Od ogrlica, transportera, kućica i posteljica preko prostirki do češljeva i šampona...i ostalih stvarčica koje mogu zatrebati svakom vlasniku mačke. <a href="oprema.html" id="detalji" onmouseover="detaljnijeOM()" onmouseout="skloniDetaljeOM()">Detaljnije..</a></p>
+                <div id="dOpremeMode"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="gornji-footer">
+        <div class="logoF">
+            <img src="slike/logo.png">
+            <h3>ŽIVOT SA MAČKOM - Vodič za vlasnike mačaka</h3>
+            <p>Zmaj Jovina 6, 21000 Novi Sad, Srbija</p>
+        </div>
+        <div class="kontaktF">
+            <h3>Kontakt Info<h3>
+            <p>+381 61 654 3521</p>
+            <abbr title="Život sa mačkom kontakt email adresa."><p>info@zivotsamackom.rs</p></abbr>
+            <ul>
+                <li><a href="https://www.instagram.com"><img src="slike/instagram.png"></a></li>
+                <li><a href="https://www.facebook.com"><img src="slike/facebook.png"></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="copyright">
+            <small>Copyright © 2023 Život sa mačkom - Vodič ya vlasnike mačaka. All Rights Reserved.</small>
+            <br>
+            <small>Designed by <a href="mirjanat2003@gmail.com">Mirjana Tanurdžić IT 15/22.</a></small>
+        </div>
+    </footer>
+</body>
+</html>

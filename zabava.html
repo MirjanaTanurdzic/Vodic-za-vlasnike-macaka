@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Život sa mačkom-Vodič za vlasnike mačaka/Igračke i rekreacija</title>
+    <link rel="icon" href="slike/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="zaglavlje">
+            <div class="logo">
+                <a href="index.html"><img src="slike/logo.png"></a>
+            </div>
+            <div class="pretraga">
+                <form id="form-pretraga">
+                    <input type="text" id="pretraga" placeholder="Pretraži:" maxlength="100" oninput="pretrazi()">
+                    <button id="dugme" onmouseover="ispisatiOpcije('Klikni')" onmouseout="skloniOpcije()">?</button>
+                    <div id="opcije"></div>
+                </form>
+            </div>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="novi_vlasnici.html">Za nove vlasnike</a></li>
+            <li><a href="#">Igračke i rekreacija</a></li>
+            <li><a href="oprema.html">Oprema i moda</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="sadrzaj-zabava">
+        <h1>Igračke i rekreacija</h1>
+        <p>Zanimljive igračke za najveću radost i zabavu Vaše mačke</p>
+        <div class="table-z">
+          <table id="t-zabava">
+            <tr>
+              <td>Zmijica za mačke</td>
+              <td>Pčelica sa mačijom travom</td>
+              <td>Leptir sa mačijom travom</td>
+            </tr>
+            <tr>
+              <td><img src="slike/zmijica.jpg"></td>
+              <td><img src="slike/pčelica.jpg"></td>
+              <td><img src="slike/leptir.jpg"></td>
+            </tr>
+            <tr>
+              <td>Mačka u džaku</td>
+              <td>Miš sa zvoncetom</td>
+              <td>Štap sa perjanom lopticom</td>
+            </tr>
+            <tr>
+              <td><img src="slike/džak.jpg"></td>
+              <td><img src="slike/miš.jpg"></td>
+              <td><img src="slike/štap.jpg"></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+    <footer>
+        <div class="gornji-footer">
+        <div class="logoF">
+            <img src="slike/logo.png">
+            <h3>ŽIVOT SA MAČKOM - Vodič za vlasnike mačaka</h3>
+            <p>Zmaj Jovina 6, 21000 Novi Sad, Srbija</p>
+        </div>
+        <div class="kontaktF">
+            <h3>Kontakt Info</h3>
+            <p>+381 61 654 3521</p>
+            <abbr title="Život sa mačkom kontakt email adresa."><p>info@zivotsamackom.rs</p></abbr>
+            <ul>
+                <li><a href="https://www.instagram.com"><img src="slike/instagram.png"></a></li>
+                <li><a href="https://www.facebook.com"><img src="slike/facebook.png"></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="copyright">
+            <small>Copyright © 2023 Život sa mačkom - Vodič ya vlasnike mačaka. All Rights Reserved.</small>
+            <br>
+            <small>Designed by <a href="mirjanat2003@gmail.com">Mirjana Tanurdžić IT 15/22.</a></small>
+        </div>
+    </footer>
+</body>
+</html>
