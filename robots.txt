@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap:https://mirjanatanurdzic.github.io/Vodic-za-vlasnike-macaka/sistemap.xml
