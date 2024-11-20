@@ -529,6 +529,10 @@ footer{
     .pretraga input{
         padding: 10px 15px;
     }
+    #form-pretraga #dugme{
+        left: 260px;
+        bottom: 42px;
+    }
     .sadrzaj-index{
         width: 800px;
         padding-bottom: 150px;
