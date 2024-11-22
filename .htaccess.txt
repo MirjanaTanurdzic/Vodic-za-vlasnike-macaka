@@ -1,0 +1,10 @@
+//Caching schema
+<FilesMatch "\.(jpg|png)$">
+Header set Cache-Control "private, max-age=3600"
+</FilesMatch>
+
+//Custom 400 errors
+ErrorDocument 400 https://mirjanatanurdzic.github.io/Vodic-za-vlasnike-macaka/kontakt.html
+
+//Custom 404 errors
+ErrorDocument 404 https://mirjanatanurdzic.github.io/Vodic-za-vlasnike-macaka/kontakt.html
